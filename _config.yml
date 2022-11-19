@@ -178,7 +178,8 @@ exclude:
   - Vagrantfile
 
 # dotfiles are excluded by default so explicitly include finger for mastodon discoverability
-include: ["/.well-known/" ]
+include: 
+  - .well-known
 
 # prose.io config
 prose:
