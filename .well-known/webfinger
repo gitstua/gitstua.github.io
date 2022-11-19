@@ -1,0 +1,23 @@
+{
+  "subject": "acct:cloudy_stuey@aus.social",
+  "aliases": [
+    "https://aus.social/@cloudy_stuey",
+    "https://aus.social/users/cloudy_stuey"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://aus.social/@cloudy_stuey"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://aus.social/users/cloudy_stuey"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://aus.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
